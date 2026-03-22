@@ -4,7 +4,7 @@ import subprocess
 import os
 from PIL import Image, ImageTk
 
-ICON_PATH = r"C:\Users\User\Documents\CYRIL_CODES\Hackaton\Photos\Logo.png"
+ICON_PATH = r"C:\Users\User\Documents\CYRIL_CODES\Hackaton\Logo.png"
 if not os.path.exists(ICON_PATH):
     ICON_PATH = None 
 
